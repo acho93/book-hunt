@@ -29,7 +29,7 @@ const LoginForm = () => {
       });
       Auth.login(data.login.token);
     } catch (e) {
-      console.error(err);
+      console.error(e);
       setShowAlert(true);
     }
 
@@ -78,6 +78,7 @@ const LoginForm = () => {
           Submit
         </Button>
       </Form>
+      {error && <div>Login failed</div>}
     </>
   );
 };
