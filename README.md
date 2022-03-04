@@ -3,7 +3,7 @@
 ## Description
 Book Hunt is an application that allows users to search and save books by both title and author. The search function was created with the Google Books API and GraphQL was used to create the queries and mutations.
 
-Here is a link to the deployed application: 
+Here is a link to the deployed application: https://intense-badlands-32429.herokuapp.com/
 
 
 
